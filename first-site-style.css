@@ -1,0 +1,101 @@
+.heading {
+    font-size: 5dvh;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 25%;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    border: 0;
+    background-color: lightslategray;
+    border: 1px solid black;
+    width: 90%;
+}
+.nav {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1dvh;
+}
+
+a {
+    color: white;
+}
+
+.perform {
+    width: 50%;
+    margin: 0 25%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subheading {
+    display: inline-block;
+    width: 50%;
+    margin: 0 25%;
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20%;
+    width: 60%;
+}
+
+.factors {
+    display: flex;
+    width: 50%;
+    margin: 0 25%;
+}
+
+.facthead {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 25%;
+}
+
+figcaption {
+    display:flex;
+    justify-content: center;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    border: 0;
+}
+
+.personal, .serve-list, .schedule {
+    display: flex;
+    flex-direction: column;
+    width: minmax(30%, auto);
+    align-items: center;
+}
+
+.serve-list {
+    color: white;
+    margin: 2dvh;
+}
+
+lh {
+    color: white;
+}
